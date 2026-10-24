@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+.d{stroke-dasharray:6 5;opacity:.75}
+</style>
+<circle cx="40" cy="70" r="5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/><text x="40" y="56" text-anchor="middle" class="t" style="font-size:12px">A</text><circle cx="40" cy="170" r="5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/><text x="40" y="156" text-anchor="middle" class="t" style="font-size:12px">B</text><circle cx="40" cy="270" r="5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/><text x="40" y="256" text-anchor="middle" class="t" style="font-size:12px">C</text><text x="330" y="60" text-anchor="middle" class="t ts" style="font-size:12px">与或门实现 L = AB + AC</text><path class="f" d="M300.0 90.0 H330.0 A30.0 30.0 0 0 1 330.0 150.0 H300.0 Z"/><path class="f" d="M300.0 220.0 H330.0 A30.0 30.0 0 0 1 330.0 280.0 H300.0 Z"/><path class="f" d="M530.0 155.0 Q540.0 185.0 530.0 215.0 Q590.0 215.0 590.0 185.0 Q590.0 155.0 530.0 155.0 Z"/><path class="w" d="M40 70 L120 70"/><circle cx="120" cy="70" r="4" fill="#2b3445"/><path class="w" d="M120 70 L120 240 L302 240"/><path class="w" d="M120 70 L120 100 L302 100"/><path class="w" d="M40 170 L240 170 L240 140 L302 140"/><path class="w" d="M40 270 L270 270 L270 260 L302 260"/><path class="w" d="M360 120 L440 120 L440 175 L527 175"/><path class="w" d="M360 250 L440 250 L440 195 L527 195"/><path class="w" d="M590 185 L690 185"/><circle cx="690" cy="185" r="5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/><text x="712" y="189" text-anchor="middle" class="t" style="font-size:12px">L</text></svg>

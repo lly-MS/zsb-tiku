@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+</style>
+<circle cx="40" cy="200" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="36" y="186" text-anchor="middle" class="t">ui</text>
+<path class="w" d="M40 200 L110 200"/>
+<path class="w" d="M110 200 h2.0"/>
+<rect class="f" x="112.0" y="190.0" width="56" height="20"/>
+<path class="w" d="M168.0 200 h2.0"/>
+<text x="140" y="182.0" text-anchor="middle" class="t">200 Ω</text>
+<path class="w" d="M170 200 L300 200"/>
+<circle cx="300" cy="200" r="4" fill="#2b3445"/>
+<path class="w" d="M300 200 L360 200"/>
+<path class="w" d="M300 250 v2.0"/>
+<rect class="f" x="290.0" y="252.0" width="20" height="56"/>
+<path class="w" d="M300 308.0 v2.0"/>
+<text x="318.0" y="284" text-anchor="start" class="t">200 Ω</text>
+<path class="w" d="M300 200 L300 250"/>
+<path class="w" d="M300 310 L300 350"/>
+<path class="w" d="M287 350 h26 M292 356 h16 M296.5 362 h7"/>
+<path class="w" d="M360 200 L420 200"/>
+<g transform="translate(450,200)" class="w">
+<path d="M-30 0 h18"/>
+<path class="f" d="M-12 -11 L-12 11 L9 0 Z"/>
+<path d="M9 -12 V12"/>
+<path d="M9 0 h21"/>
+</g>
+<text x="450" y="178" text-anchor="middle" class="t">D</text>
+<path class="w" d="M480 200 L540 200"/>
+<path class="w" d="M540 213 L540 225"/>
+<circle class="f" cx="540" cy="245" r="20"/>
+<path class="w" d="M540 265 L540 277"/>
+<text x="540" y="240" text-anchor="middle" class="t" style="font-size:15px">+</text>
+<text x="540" y="258" text-anchor="middle" class="t" style="font-size:15px">−</text>
+<text x="510" y="249" text-anchor="end" class="t">6 V</text>
+<path class="w" d="M540 200 L540 213"/>
+<path class="w" d="M540 277 L540 330"/>
+<path class="w" d="M527 330 h26 M532 336 h16 M536.5 342 h7"/>
+<path class="w" d="M300 200 L300 130"/>
+<circle cx="300" cy="124" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="322" y="118" text-anchor="middle" class="t">uo</text>
+<text x="300" y="40" text-anchor="middle" class="t ts">二极管限幅电路</text>
+</svg>

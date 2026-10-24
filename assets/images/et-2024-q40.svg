@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+</style>
+<path class="f" d="M142.0 80.0 L142.0 160.0 L238.0 120 Z"/>
+<text x="154.0" y="105" text-anchor="middle" class="t" style="font-size:16px">−</text>
+<text x="154.0" y="141" text-anchor="middle" class="t" style="font-size:15px">+</text>
+<text x="196" y="154" text-anchor="middle" class="t">A1</text>
+<circle cx="50" cy="102" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="46" y="88" text-anchor="middle" class="t">ui</text>
+<path class="w" d="M50 102 L142.0 102"/>
+<path class="w" d="M238.0 120 L290 120"/>
+<path class="w" d="M290 120 L290 62"/>
+<path class="w" d="M290 62 L128 62"/>
+<path class="w" d="M128 62 L128 142.0"/>
+<path class="w" d="M128 142.0 L142.0 142.0"/>
+<circle cx="290" cy="120" r="4" fill="#2b3445"/>
+<text x="190" y="170" text-anchor="middle" class="t ts" style="font-size:12px">电压跟随器</text>
+<path class="f" d="M422.0 176.0 L422.0 264.0 L518.0 220 Z"/>
+<text x="434.0" y="205" text-anchor="middle" class="t" style="font-size:16px">−</text>
+<text x="434.0" y="241" text-anchor="middle" class="t" style="font-size:15px">+</text>
+<text x="476" y="254" text-anchor="middle" class="t">A2</text>
+<path class="w" d="M290 120 L290 202"/>
+<path class="w" d="M290 202 L350 202"/>
+<path class="w" d="M350 202 h2.0"/>
+<rect class="f" x="352.0" y="192.0" width="56" height="20"/>
+<path class="w" d="M408.0 202 h2.0"/>
+<text x="380" y="184.0" text-anchor="middle" class="t">R1 = 5 kΩ</text>
+<path class="w" d="M410 202 L422.0 202"/>
+<path class="w" d="M410 202 L410 120"/>
+<path class="w" d="M410 120 L440 120"/>
+<path class="w" d="M460 120 h2.0"/>
+<rect class="f" x="462.0" y="110.0" width="56" height="20"/>
+<path class="w" d="M518.0 120 h2.0"/>
+<text x="490" y="102.0" text-anchor="middle" class="t">Rf = 50 kΩ</text>
+<path class="w" d="M520 120 L600 120"/>
+<path class="w" d="M600 120 L600 220"/>
+<circle cx="600" cy="220" r="4" fill="#2b3445"/>
+<path class="w" d="M518.0 220 L600 220"/>
+<path class="w" d="M600 220 L690 220"/>
+<circle cx="690" cy="220" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="714" y="224" text-anchor="middle" class="t">uo</text>
+<path class="w" d="M422.0 238 L410 238"/>
+<path class="w" d="M410 238 L410 300"/>
+<path class="w" d="M397 300 h26 M402 306 h16 M406.5 312 h7"/>
+<text x="430" y="30" text-anchor="middle" class="t ts">两级理想运放电路</text>
+</svg>

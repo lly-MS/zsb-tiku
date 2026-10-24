@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+</style>
+<circle cx="40" cy="140" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="36" y="126" text-anchor="middle" class="t">ui1</text>
+<path class="w" d="M40 140 L110 140"/>
+<path class="w" d="M110 140 h2.0"/>
+<rect class="f" x="112.0" y="130.0" width="56" height="20"/>
+<path class="w" d="M168.0 140 h2.0"/>
+<text x="140" y="122.0" text-anchor="middle" class="t">R1 = 20 kΩ</text>
+<path class="w" d="M170 140 L260 140"/>
+<path class="w" d="M260 140 L260 190"/>
+<circle cx="260" cy="190" r="4" fill="#2b3445"/>
+<circle cx="40" cy="250" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="36" y="268" text-anchor="middle" class="t">ui2</text>
+<path class="w" d="M40 250 L110 250"/>
+<path class="w" d="M110 250 h2.0"/>
+<rect class="f" x="112.0" y="240.0" width="56" height="20"/>
+<path class="w" d="M168.0 250 h2.0"/>
+<text x="140" y="232.0" text-anchor="middle" class="t">R2 = 10 kΩ</text>
+<path class="w" d="M170 250 L260 250"/>
+<path class="w" d="M260 250 L260 190"/>
+<path class="f" d="M302.0 166.0 L302.0 254.0 L398.0 210 Z"/>
+<text x="314.0" y="195" text-anchor="middle" class="t" style="font-size:16px">−</text>
+<text x="314.0" y="231" text-anchor="middle" class="t" style="font-size:15px">+</text>
+<text x="356" y="244" text-anchor="middle" class="t">A</text>
+<path class="w" d="M260 190 L302.0 192"/>
+<path class="w" d="M260 190 L260 96"/>
+<path class="w" d="M260 96 L320 96"/>
+<path class="w" d="M320 96 h2.0"/>
+<rect class="f" x="322.0" y="86.0" width="56" height="20"/>
+<path class="w" d="M378.0 96 h2.0"/>
+<text x="350" y="78.0" text-anchor="middle" class="t">R3 = 20 kΩ</text>
+<path class="w" d="M380 96 L450 96"/>
+<path class="w" d="M450 96 L450 210"/>
+<circle cx="450" cy="210" r="4" fill="#2b3445"/>
+<path class="w" d="M398.0 210 L580 210"/>
+<circle cx="580" cy="210" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="608" y="214" text-anchor="middle" class="t">uo</text>
+<path class="w" d="M302.0 228 L260 228"/>
+<path class="w" d="M260 228 L260 300"/>
+<path class="w" d="M247 300 h26 M252 306 h16 M256.5 312 h7"/>
+<text x="350" y="34" text-anchor="middle" class="t ts">反相求和电路</text>
+</svg>

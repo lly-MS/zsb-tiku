@@ -1,0 +1,37 @@
+# ===== 部署缓存 / 密钥 =====
+.vercel
+.env*
+
+# ===== 内部工具目录（仅本地，勿上传）=====
+.workbuddy/
+.work/
+
+# ===== 密钥与签名（安全：绝不提交）=====
+*.keystore
+android/*.keystore
+
+# ===== 构建产物（二进制，不入库）=====
+*.apk
+*.aab
+
+# ===== 备份文件（data/ 下约 100MB，勿提交）=====
+*.bak
+*.bak*
+data/*.bak
+data/*.bak*
+
+# ===== Android 工程本地/构建 =====
+android/local.properties
+android/.gradle/
+android/**/build/
+android/**/*.iml
+android/captures/
+
+# ===== 依赖 / 下载缓存（非仓库内容）=====
+node_modules/
+downloads/
+D:/downloads/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db

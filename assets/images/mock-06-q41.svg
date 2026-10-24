@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+</style>
+<path class="w" d="M100 138 L100 150"/>
+<circle class="f" cx="100" cy="170" r="20"/>
+<path class="w" d="M100 190 L100 202"/>
+<text x="100" y="165" text-anchor="middle" class="t" style="font-size:15px">+</text>
+<text x="100" y="183" text-anchor="middle" class="t" style="font-size:15px">−</text>
+<text x="70" y="174" text-anchor="end" class="t">U = 24 V</text>
+<path class="w" d="M100 138 L260 138"/>
+<path class="w" d="M260 138 h2.0"/>
+<rect class="f" x="262.0" y="128.0" width="56" height="20"/>
+<path class="w" d="M318.0 138 h2.0"/>
+<text x="290" y="120.0" text-anchor="middle" class="t">R = 3 kΩ</text>
+<path class="w" d="M320 138 L460 138"/>
+<path class="w" d="M460 138 L460 150"/>
+<g transform="translate(460,180) rotate(0)" class="w">
+<path d="M0 -30 v18"/>
+<path class="f" d="M-11 -12 L11 -12 L0 9 Z"/>
+<path d="M-12 9 H12"/>
+<path d="M0 9 v21"/>
+</g>
+<text x="478" y="184" text-anchor="start" class="t">D</text>
+<path class="w" d="M460 210 L460 240"/>
+<path class="w" d="M100 202 L100 240"/>
+<path class="w" d="M100 240 L460 240"/>
+<text x="280" y="60" text-anchor="middle" class="t ts" style="font-size:12px">二极管串联电路</text>
+</svg>

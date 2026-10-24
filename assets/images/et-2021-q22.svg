@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+</style>
+<path class="w" d="M90 158 L90 170"/>
+<circle class="f" cx="90" cy="190" r="20"/>
+<path class="w" d="M90 210 L90 222"/>
+<text x="90" y="185" text-anchor="middle" class="t" style="font-size:15px">−</text>
+<text x="90" y="203" text-anchor="middle" class="t" style="font-size:15px">+</text>
+<text x="60" y="194" text-anchor="end" class="t">8 V</text>
+<path class="w" d="M90 158 L230 158"/>
+<path class="w" d="M230 158 h2.0"/>
+<rect class="f" x="232.0" y="148.0" width="56" height="20"/>
+<path class="w" d="M288.0 158 h2.0"/>
+<text x="260" y="140.0" text-anchor="middle" class="t">R = 3 kΩ</text>
+<path class="w" d="M290 158 L500 158"/>
+<circle cx="500" cy="158" r="4" fill="#2b3445"/>
+<path class="w" d="M500 158 L500 190"/>
+<g transform="translate(500,220) rotate(180)" class="w">
+<path d="M0 -30 v18"/>
+<path class="f" d="M-11 -12 L11 -12 L0 9 Z"/>
+<path d="M-12 9 H12"/>
+<path d="M0 9 v21"/>
+</g>
+<text x="518" y="224" text-anchor="start" class="t">D</text>
+<path class="w" d="M500 250 L500 298"/>
+<path class="w" d="M500 298 L500 310"/>
+<circle class="f" cx="500" cy="330" r="20"/>
+<path class="w" d="M500 350 L500 362"/>
+<text x="500" y="325" text-anchor="middle" class="t" style="font-size:15px">−</text>
+<text x="500" y="343" text-anchor="middle" class="t" style="font-size:15px">+</text>
+<text x="470" y="334" text-anchor="end" class="t">2 V</text>
+<path class="w" d="M500 362 L500 390"/>
+<path class="w" d="M90 222 L90 390"/>
+<path class="w" d="M90 390 L500 390"/>
+<circle cx="500" cy="158" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="522" y="154" text-anchor="middle" class="t">A</text>
+<circle cx="500" cy="390" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="522" y="394" text-anchor="middle" class="t">O</text>
+<text x="80" y="70" text-anchor="middle" class="t ts" style="font-size:12px">理想二极管</text>
+</svg>

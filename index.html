@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>刷题 · 专升本题库</title>
+<meta name="description" content="专升本刷题：高等数学、英语、政治理论、电子技术基础真题题库，含练习、考试、模拟考与错题本，支持手机安装与题库自动更新。">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#4f63d2">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="刷题">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<link rel="stylesheet" href="assets/css/katex.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234f63d2'/%3E%3Ctext x='32' y='43' font-size='32' text-anchor='middle' fill='white' font-family='serif'%3E题%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<div class="app-shell">
+  <header class="topbar">
+    <a class="brand" href="#/home" aria-label="返回首页">
+      <span class="brand-mark">题</span>
+      <span class="brand-text">刷题<span class="brand-sub">LOCAL QUESTION BANK</span></span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#/home" data-nav="home">首页</a>
+      <a href="#/bank" data-nav="bank">题库</a>
+      <a href="#/papers" data-nav="papers">套卷</a>
+      <a href="#/mock" data-nav="mock">模拟考</a>
+      <a href="#/wrong" data-nav="wrong">错题本<span class="nav-badge" id="wrongNavBadge" hidden>0</span></a>
+      <a href="#/progress" data-nav="progress">学习进度</a>
+    </nav>
+    <div class="topbar-right">
+      <div class="mini-progress" id="miniProgress" title="整体完成度">
+        <svg viewBox="0 0 36 36" aria-hidden="true">
+          <circle class="ring-bg" cx="18" cy="18" r="15"></circle>
+          <circle class="ring-fg" id="miniRing" cx="18" cy="18" r="15"></circle>
+        </svg>
+        <span id="miniPercent">0%</span>
+      </div>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="打开菜单">
+        <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="app" class="app-main" tabindex="-1"><div class="boot-loading"><span class="boot-spinner"></span>题库加载中…</div></main>
+
+  <footer class="site-footer">
+    <div>题库内容整理自本地学习资料，仅用于个人备考练习。</div>
+    <div class="footer-meta" id="footerMeta"></div>
+  </footer>
+</div>
+
+<div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+
+<script src="data/questions.js"></script>
+<script src="assets/js/marked.min.js"></script>
+<script src="assets/js/katex.min.js"></script>
+<script src="assets/js/auto-render.min.js"></script>
+<script src="assets/js/boot.js"></script>
+</body>
+</html>

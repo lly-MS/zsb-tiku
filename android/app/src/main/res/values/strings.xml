@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">专升本刷题</string>
+    <!-- 题库网站地址：每次启动 App 会从这个地址拉取最新题库清单与数据 -->
+    <string name="app_url">https://zsb-ele-tiku.cc.cd</string>
+</resources>

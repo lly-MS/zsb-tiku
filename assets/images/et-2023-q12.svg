@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 290" width="360" height="290"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+</style>
+<text x="180" y="18" text-anchor="middle" class="t ts" style="font-size:12px">MOS 管符号</text>
+<path class="w" d="M70 140 L130 140"/>
+<path class="w" d="M130 100 L130 180"/>
+<path class="w" d="M150 96 L150 118"/>
+<path class="w" d="M150 128 L150 152"/>
+<path class="w" d="M150 162 L150 184"/>
+<path class="w" d="M150 107 L210 80"/>
+<path class="w" d="M210 80 L210 50"/>
+<circle cx="210" cy="44" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="228" y="48" text-anchor="middle" class="t">D</text>
+<path class="w" d="M150 173 L210 200"/>
+<path class="w" d="M210 200 L210 230"/>
+<circle cx="210" cy="236" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="228" y="244" text-anchor="middle" class="t">S</text>
+<path class="w" d="M150 140 L230 140"/>
+<path class="w" d="M230 140 L230 170"/>
+<circle cx="230" cy="176" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="248" y="184" text-anchor="middle" class="t">B</text>
+<path class="w" d="M150 140 l14 -5 M150 140 l14 5"/>
+<text x="70" y="144" text-anchor="end" class="t">G</text>
+</svg>

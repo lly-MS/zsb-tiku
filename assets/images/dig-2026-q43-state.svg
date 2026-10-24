@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" width="760" height="520"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+.d{stroke-dasharray:6 5;opacity:.75}
+</style>
+<path class="w" d="M255.90593680382162 297.97995371675165 L404.09406319617835 172.02004628324838"/><path class="w" d="M404.1 172.0 l-5.3 12.3 M404.1 172.0 l-13.0 3.2"/><path class="w" d="M440.7517440445725 182.25523213371747 L499.2482559554275 357.74476786628253"/><path class="w" d="M499.2 357.7 l-9.5 -9.5 M499.2 357.7 l1.9 -13.3"/><path class="w" d="M477.0151549950587 381.7537887487647 L262.9848450049413 328.2462112512353"/><path class="w" d="M263.0 328.2 l13.1 -2.9 M263.0 328.2 l10.2 8.7"/><path class="w d" d="M311.1401933283422 441.7102899925133 L248.8598066716578 348.2897100074867"/><path class="w d" d="M248.9 348.3 l11.6 6.7 M248.9 348.3 l1.7 13.3"/><circle class="f" cx="230" cy="320" r="32"/><text x="230" y="325" text-anchor="middle" class="t" style="font-size:13px">00</text><circle class="f" cx="430" cy="150" r="32"/><text x="430" y="155" text-anchor="middle" class="t" style="font-size:13px">01</text><circle class="f" cx="510" cy="390" r="32"/><text x="510" y="395" text-anchor="middle" class="t" style="font-size:13px">10</text><circle class="f" cx="330" cy="470" r="30"/><text x="330" y="475" text-anchor="middle" class="t" style="font-size:13px">11</text><text x="380" y="50" text-anchor="middle" class="t ts" style="font-size:12px">状态转换图：00→01→10→00，无效状态 11 一拍回到 00</text><text x="380" y="502" text-anchor="middle" class="t ts" style="font-size:10.5px">状态按 Q2Q1 排列</text></svg>

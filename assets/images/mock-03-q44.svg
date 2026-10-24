@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+</style>
+<circle cx="40" cy="190" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="34" y="174" text-anchor="middle" class="t">ui</text>
+<path class="w" d="M40 190 L140 190"/>
+<path class="w" d="M140 190 h2.0"/>
+<rect class="f" x="142.0" y="180.0" width="56" height="20"/>
+<path class="w" d="M198.0 190 h2.0"/>
+<text x="170" y="172.0" text-anchor="middle" class="t">R1 = 5 kΩ</text>
+<path class="w" d="M200 190 L252 190"/>
+<circle cx="252" cy="190" r="4" fill="#2b3445"/>
+<path class="f" d="M282.0 156.0 L282.0 244.0 L378.0 200 Z"/>
+<text x="294.0" y="185" text-anchor="middle" class="t" style="font-size:16px">−</text>
+<text x="294.0" y="221" text-anchor="middle" class="t" style="font-size:15px">+</text>
+<text x="336" y="234" text-anchor="middle" class="t">A</text>
+<path class="w" d="M252 190 L282.0 182"/>
+<path class="w" d="M252 190 L252 96"/>
+<path class="w" d="M252 96 L300 96"/>
+<path class="w" d="M300 96 h2.0"/>
+<rect class="f" x="302.0" y="86.0" width="56" height="20"/>
+<path class="w" d="M358.0 96 h2.0"/>
+<text x="330" y="78.0" text-anchor="middle" class="t">Rf = 50 kΩ</text>
+<path class="w" d="M360 96 L430 96"/>
+<path class="w" d="M430 96 L430 200"/>
+<circle cx="430" cy="200" r="4" fill="#2b3445"/>
+<path class="w" d="M378.0 200 L540 200"/>
+<circle cx="540" cy="200" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="568" y="204" text-anchor="middle" class="t">uo</text>
+<path class="w" d="M430 200 L470 200"/>
+<path class="w" d="M282.0 218 L252 218"/>
+<path class="w" d="M252 218 L252 250"/>
+<path class="w" d="M239 250 h26 M244 256 h16 M248.5 262 h7"/>
+</svg>

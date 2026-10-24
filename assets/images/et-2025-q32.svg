@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" width="700" height="420"><style>
+.w{stroke:#2b3445;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#fffdf8;stroke:#2b3445;stroke-width:2}
+.t{stroke:none;fill:#2b3445;font-family:'Segoe UI',Arial,sans-serif;font-size:13px}
+.ts{font-size:11.5px;fill:#5b6472}
+.b{font-weight:600}
+</style>
+<path class="w" d="M150 76 L600 76"/>
+<text x="600" y="62" text-anchor="end" class="t">VCC = 12 V</text>
+<path class="w" d="M250 120 v2.0"/>
+<rect class="f" x="240.0" y="122.0" width="20" height="56"/>
+<path class="w" d="M250 178.0 v2.0"/>
+<text x="268.0" y="154" text-anchor="start" class="t">Rb = 300 kΩ</text>
+<path class="w" d="M250 76 L250 120"/>
+<path class="w" d="M250 180 L250 240"/>
+<circle cx="250" cy="240" r="4" fill="#2b3445"/>
+<path class="w" d="M470 110 v2.0"/>
+<rect class="f" x="460.0" y="112.0" width="20" height="56"/>
+<path class="w" d="M470 168.0 v2.0"/>
+<text x="488.0" y="144" text-anchor="start" class="t">Rc = 3 kΩ</text>
+<path class="w" d="M470 76 L470 110"/>
+<path class="w" d="M470 170 L470 200"/>
+<circle class="f" cx="370" cy="260" r="27"/>
+<path class="w" d="M325 260 H356"/>
+<path class="w" d="M356 245 v30"/>
+<path class="w" d="M356 252 L379 239 L388 212"/>
+<path class="w" d="M356 268 L379 281 L388 308"/>
+<path class="w" d="M379 281 l-11.313156493210156 -4.0015609654404685 M379 281 l-5.011407901049472 -10.903476090187887"/>
+<text x="404" y="264" text-anchor="start" class="t">T</text>
+<path class="w" d="M250 240 L325 260"/>
+<path class="w" d="M388 212 L470 200"/>
+<circle cx="470" cy="200" r="4" fill="#2b3445"/>
+<path class="w" d="M388 308 L388 360"/>
+<path class="w" d="M375 360 h26 M380 366 h16 M384.5 372 h7"/>
+<circle cx="40" cy="260" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="36" y="246" text-anchor="middle" class="t">ui</text>
+<path class="w" d="M40 260 L90 260"/>
+<path class="w" d="M90 260 h25"/>
+<path class="w" d="M115 243 v34"/>
+<path class="w" d="M125 243 v34"/>
+<path class="w" d="M125 260 h25"/>
+<text x="120" y="235" text-anchor="middle" class="t">C1</text>
+<path class="w" d="M150 260 L325 260"/>
+<path class="w" d="M470 200 L500 200"/>
+<path class="w" d="M500 200 h25"/>
+<path class="w" d="M525 183 v34"/>
+<path class="w" d="M535 183 v34"/>
+<path class="w" d="M535 200 h25"/>
+<text x="530" y="175" text-anchor="middle" class="t">C2</text>
+<path class="w" d="M560 200 L640 200"/>
+<circle cx="640" cy="200" r="4.5" fill="#fffdf8" stroke="#2b3445" stroke-width="2"/>
+<text x="660" y="204" text-anchor="middle" class="t">uo</text>
+<circle cx="580" cy="200" r="4" fill="#2b3445"/>
+<path class="w" d="M580 240 v2.0"/>
+<rect class="f" x="570.0" y="242.0" width="20" height="56"/>
+<path class="w" d="M580 298.0 v2.0"/>
+<text x="598.0" y="274" text-anchor="start" class="t">RL = 2 kΩ</text>
+<path class="w" d="M580 200 L580 240"/>
+<path class="w" d="M580 300 L580 340"/>
+<path class="w" d="M567 340 h26 M572 346 h16 M576.5 352 h7"/>
+</svg>
