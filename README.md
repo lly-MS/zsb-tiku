@@ -24,16 +24,27 @@ python3 -m http.server 8080
 3. `data/bank-manifest.json` 中 `version` +1，并更新 `count` / `updatedAt`。
 4. 部署站点（Vercel / GitHub Pages / 任意静态托管）。用户端下次打开即提示「题库已更新至 vX」。
 
+## 线上地址
+
+| 平台 | 地址 | 说明 |
+| --- | --- | --- |
+| GitHub Pages | **https://lly-ms.github.io/zsb-tiku/** | 本仓库 main 分支自动构建 |
+| Vercel（生产） | https://zsb-ele-tiku.cc.cd | `vercel --prod --yes` 部署 |
+
+两个站点内容一致，均为相对路径部署；APK 内加载的是 Vercel 域名。
+
 ## 部署
-- **GitHub Pages**：本仓库已开启 Pages（源 `main` 分支根目录）。站点地址见仓库 About 中的 Pages 链接。
+- **GitHub Pages**：已开启，源为 `main` 分支根目录（仓库含 `.nojekyll`，跳过 Jekyll 构建）。推送到 `main` 后约 1 分钟自动生效。
 - **Vercel**：`vercel --prod --yes`（见 `.vercelignore`）。
+
+> 注：若在受限网络下 `git push` / SSH 无法连接 `github.com`，可改用 GitHub REST API（Git Data API：blob → tree → commit → 更新 ref）上传，等效于一次提交。
 
 ## 目录结构
 ```
 index.html              入口
 assets/js/app.js        应用主逻辑
 assets/js/boot.js       启动加载 + 题库更新检查 + PWA 注册
-assets/js/sw.js         Service Worker（离线壳）
+sw.js                   Service Worker（离线壳）
 data/questions.json     题库数据（权威）
 data/questions.js       内置兜底题库（window.QUESTION_BANK）
 data/bank-manifest.json 题库版本清单
