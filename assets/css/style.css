@@ -26,7 +26,7 @@
   --serif:"Songti SC","STSong","SimSun","Noto Serif SC",Georgia,serif;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:hidden}
 body{
   margin:0;min-height:100vh;color:var(--ink);font-family:var(--font);
   background:
@@ -290,6 +290,7 @@ h1,h2,h3,h4,p{margin:0}
 .practice-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:20px;align-items:start}
 /* 安全兜底：任何超宽内容（异常长公式/长串）都不得把页面撑成 PC 宽度 */
 .question-card,.passage-body,.q-stem-full{min-width:0;max-width:100%}
+.q-stem-full{overflow-x:auto}
 .katex-display{max-width:100%;overflow-x:auto;overflow-y:hidden}
 .question-card{background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-sm);padding:28px 32px 26px}
 .q-topline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:16px}
@@ -541,6 +542,10 @@ h1,h2,h3,h4,p{margin:0}
   .practice-head{top:60px;flex-wrap:wrap;gap:8px}
   .practice-progress{width:100%}
   .practice-progress .track{flex:1;width:auto}
+  /* 练习页导航（上一组/下一组/完成/交卷）：窄屏必须换行，禁止把内容顶出屏幕右侧 */
+  .practice-nav{flex-wrap:wrap;gap:10px}
+  .practice-nav-right{flex-wrap:wrap;justify-content:flex-end;row-gap:8px}
+  .filter-summary{flex-wrap:wrap;gap:10px}
   .sheet-grid{grid-template-columns:repeat(8,1fr)}
   .wrong-stats{grid-template-columns:1fr 1fr}
   .wrong-item{grid-template-columns:1fr}
