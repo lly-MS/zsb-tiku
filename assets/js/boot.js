@@ -58,6 +58,13 @@
 
   function registerSW() {
     if (!("serviceWorker" in navigator)) return;
+    // 新版本 Service Worker 接管时提示用户（下次打开即用上新版样式/脚本）
+    var noticed = false;
+    navigator.serviceWorker.addEventListener("controllerchange", function () {
+      if (noticed) return;
+      noticed = true;
+      toast("站点已更新，下次打开生效", "ok");
+    });
     try { navigator.serviceWorker.register("sw.js").catch(function () {}); } catch (e) {}
   }
 
