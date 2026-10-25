@@ -546,6 +546,10 @@ h1,h2,h3,h4,p{margin:0}
   .practice-nav{flex-wrap:wrap;gap:10px}
   .practice-nav-right{flex-wrap:wrap;justify-content:flex-end;row-gap:8px}
   .filter-summary{flex-wrap:wrap;gap:10px}
+  /* 窄屏（约360px机型）：压缩导航按钮，保证「上一组/完成练习/下一组」在一行内且不溢出 */
+  .practice-nav .btn{padding:10px 13px;font-size:13px;gap:6px}
+  .practice-nav{gap:8px}
+  .practice-nav-right{gap:8px}
   .sheet-grid{grid-template-columns:repeat(8,1fr)}
   .wrong-stats{grid-template-columns:1fr 1fr}
   .wrong-item{grid-template-columns:1fr}
